@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(134, 134, 134, 0.747);
+}
+
+.hero_banner{
+    margin-top:0 ;
+    background-image: url(imagens/bg-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.text{
+    text-align: center;
+    padding-top: 10px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border-bottom: 1px solid white;
+    width: 450px;
+    height: 40px;
+}
+
+
+.navbar ul{
+    display: flex;
+    justify-content: right;
+}
+
+li{
+    font-size: 1.1rem;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+}
+main{
+    margin: 30px ;
+}
+
+section{
+    background-color: white;
+    margin: 10px auto;
+}

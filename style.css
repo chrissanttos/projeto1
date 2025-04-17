@@ -5,15 +5,16 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgba(134, 134, 134, 0.747);
+height: 100vh;
 }
 
 .hero_banner{
     margin-top:0 ;
     background-image: url(imagens/bg-3.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: right center;
+
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 70%;
 }
 
 h1{
@@ -52,11 +53,35 @@ li{
     list-style: none;
     color: white;
 }
+
+
 main{
-    margin: 30px ;
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
 }
 
 section{
-    background-color: white;
-    margin: 10px auto;
+    background-color: aliceblue;
+    padding: 16px;
+    margin: 30px;
 }
+
+h2{
+    background-color: rgb(197, 197, 197);
+    border-bottom: 2px solid rgb(73, 73, 73);
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+section p{
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(75, 75, 75);
+    padding: 7px;
+    color: white ;
+    margin-left: 10px;
+}
+
